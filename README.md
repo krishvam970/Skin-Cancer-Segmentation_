@@ -2,7 +2,6 @@
 # Brain Tumor Detection using Python and Sklearn
 
 
-
 <!-- wp:paragraph -->
 <p>In this post we are demonstrating about brain tumor detection using sklearn and python.</p>
 <!-- /wp:paragraph -->
