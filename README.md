@@ -1,6 +1,6 @@
 <div align="center">
   <h1>U-Net SKIN CANCER SEGMENTATION<h1>
-  <img width="100%" src="assets/results.png" alt="Inference Result Example">
+  <img width="100%" src="[assets/results.png](https://github.com/nata-vito/skin-cancer-segmentation/blob/main/assets/results.png)" alt="Inference Result Example">
 </div>
 I recently challenged myself to implement the U-Net network to learn how it works and developed this project. The aim of this project is to train segmentation models with png mask. This work uses [UNet model](https://arxiv.org/pdf/1505.04597) specialized in biomedical image segmentation in order to segment skin cancers. I used the dataset [Skin cancer: HAM10000](https://www.kaggle.com/datasets/surajghuwalewala/ham1000-segmentation-and-classification/data), a easy download version of [The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions](https://doi.org/10.7910/DVN/DBW86T) and trained the model. The dataset used consists of .jpg images and .png binary masks. In this project I'm also using the overlay of the predicted mask with the original image, which makes it easier to understand the area affected by skin cancer. If you're interested in the topic, feel free to learn more about this architecture. I've prepared an easy-to-understand and easy-to-implement notebook. 
 
@@ -11,7 +11,7 @@ The U-Net architecture achieves very good performance on very different biomedic
 
 <div align="center">
   <h3>Figure 1<h3>
-  <img width="70%" src="./assets/image.png" alt="U-net architecture">
+  <img width="70%" src="[./assets/image.png" alt="U-net architecture](https://github.com/nata-vito/skin-cancer-segmentation/blob/main/assets/image.png)">
   <h4>Ronneberger et al.<h4>
 </div>
 
@@ -44,7 +44,7 @@ Dice score = 2 * (number of common elements) / (number of elements in set A + nu
 
 <div align="center">
   <h3>Figure 2<h3>
-  <img width="50%" src="./assets/image-2.png" alt="DICE Metric">
+  <img width="50%" src="[./assets/image-2.png](https://github.com/nata-vito/skin-cancer-segmentation/blob/main/assets/image-2.png)" alt="DICE Metric">
   <h4>https://medium.com/@lathashreeh/dice-coefficient-what-is-it-ff090ec97bda<h4>
 </div>
 
@@ -83,13 +83,13 @@ By analyzing the loss and DICE graphs, we can see that from epoch 12 to 20, the 
 
 <div align="center">
   <h3>Figure 3<h3>
-  <img width="100%" src="./assets/results_val_loss_v1.png" alt="Validation Train Results">
+  <img width="100%" src="[./assets/results_val_loss_v1.png](https://github.com/nata-vito/skin-cancer-segmentation/raw/main/assets/results_val_loss_v1.png)" alt="Validation Train Results">
   <h4>Validation Results for model version 1<h4>
 </div>
 
 <div align="center">
   <h3>Figure 4<h3>
-  <img width="100%" src="./assets/results_val_loss.png" alt="Validation Train Results">
+  <img width="100%" src="[./assets/results_val_loss.png](https://github.com/nata-vito/skin-cancer-segmentation/raw/main/assets/results_val_loss.png)" alt="Validation Train Results">
   <h4>Validation Results for model version 2<h4>
 </div>
 
@@ -98,15 +98,15 @@ By analyzing the loss and DICE graphs, we can see that from epoch 12 to 20, the 
 <div align="center">
   <h3>Model: skin_cancer_v1.pth<h3>
   <h3>ISIC_0033463.jpg<h3>
-  <img width="100%" src="./assets/image-3.png" alt="DICE Metric">
+  <img width="100%" src="[./assets/image-3.png](https://github.com/nata-vito/skin-cancer-segmentation/raw/main/assets/image-3.png)" alt="DICE Metric">
   <h3>ISIC_0026023.jpg<h3>
-  <img width="100%" src="./assets/image-4.png" alt="DICE Metric">
+  <img width="100%" src="[./assets/image-4.png](https://github.com/nata-vito/skin-cancer-segmentation/blob/main/assets/image-4.png)" alt="DICE Metric">
   <h3>ISIC_0029811.jpg<h3>
-  <img width="100%" src="./assets/image-5.png" alt="DICE Metric">
+  <img width="100%" src="[./assets/image-5.png](https://github.com/nata-vito/skin-cancer-segmentation/blob/main/assets/image-5.png)" alt="DICE Metric">
   <h3>ISIC_0029382.jpg<h3>
-  <img width="100%" src="./assets/image-6.png" alt="DICE Metric">
+  <img width="100%" src="[./assets/image-6.png](https://github.com/nata-vito/skin-cancer-segmentation/raw/main/assets/image-6.png)" alt="DICE Metric">
    <h3>ISIC_0032059.jpg<h3>
-  <img width="100%" src="./assets/image-7.png" alt="DICE Metric">
+  <img width="100%" src="[./assets/image-7.png](https://github.com/nata-vito/skin-cancer-segmentation/raw/main/assets/image-7.png)" alt="DICE Metric">
 </div>
 
 
@@ -116,15 +116,15 @@ By analyzing the loss and DICE graphs, we can see that from epoch 12 to 20, the 
 <div align="center">
   <h3>Model: skin_cancer_v2.pth<h3>
   <h3>ISIC_0033463.jpg<h3>
-  <img width="100%" src="./assets/image-8.png" alt="DICE Metric">
+  <img width="100%" src="[./assets/image-8.png](https://github.com/nata-vito/skin-cancer-segmentation/raw/main/assets/image-8.png)" alt="DICE Metric">
   <h3>ISIC_0026023.jpg<h3>
-  <img width="100%" src="./assets/image-9.png" alt="DICE Metric">
+  <img width="100%" src="[./assets/image-9.png](https://github.com/nata-vito/skin-cancer-segmentation/raw/main/assets/image-9.png)" alt="DICE Metric">
   <h3>ISIC_0029811.jpg<h3>
-  <img width="100%" src="./assets/image-10.png" alt="DICE Metric">
+  <img width="100%" src="[./assets/image-10.png](https://github.com/nata-vito/skin-cancer-segmentation/raw/main/assets/image-10.png)" alt="DICE Metric">
   <h3>ISIC_0029382.jpg<h3>
-  <img width="100%" src="./assets/image-11.png" alt="DICE Metric">
+  <img width="100%" src="[./assets/image-11.png](https://github.com/nata-vito/skin-cancer-segmentation/raw/main/assets/image-11.png)" alt="DICE Metric">
    <h3>ISIC_0032059.jpg<h3>
-  <img width="100%" src="./assets/image-12.png" alt="DICE Metric">
+  <img width="100%" src="[./assets/image-12.png](https://github.com/nata-vito/skin-cancer-segmentation/raw/main/assets/image-12.png)" alt="DICE Metric">
 </div>
 
 
