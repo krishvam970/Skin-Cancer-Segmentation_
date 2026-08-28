@@ -130,3 +130,32 @@ By analyzing the loss and DICE graphs, we can see that from epoch 12 to 20, the 
 
 ### Conclusion
 It can be concluded that both models meet the objective, but version two obtained better results than the first version. This result was due to the number of training epochs, for version two there were 20 and for the first only 10.
+
+### Next Steps
+The next steps are: 
+- Finding the best parameters for training the model
+- Increase the number of training epochs
+  
+## 🤝 Collaborators
+
+We would like to thank the following people who contributed to this project:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/64169072?v=4" width="100px;" alt="Foto do Natanael Vitorino no GitHub"/><br>
+        <sub>
+          <b>Natanael Vitorino</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+
+## 📝 License
+
+This project is under license. See the file [LICENSE](LICENSE) for more details.
+
+---
